@@ -3,7 +3,7 @@
 ────────────────────────────────────────────────────────────────────────────*/
 :root {
     --purple:       #c14279;
-    --purple-dark:  #58229c;
+    --purple-dark:  #7753a3;
     --light-bg:     #f0f2f5;
     --text-color:   #333;
     --card-bg:      #fff;
@@ -11,6 +11,8 @@
     --code-bg:      #eef;
     --alert-bg:     #f8f9fa;
     --alert-border: var(--purple);
+    --peach:       #f0b079;
+    --peach-dark:  #e29450;
   }
   
   /*────────────────────────────────────────────────────────────────────────────
@@ -35,7 +37,7 @@
     Typography
   ────────────────────────────────────────────────────────────────────────────*/
   h1, h2 {
-    color: var(--purple-dark);
+    color: var(--alert-bg);
     margin-top: 0;
   }
   
@@ -55,12 +57,12 @@
     Navbar
   ────────────────────────────────────────────────────────────────────────────*/
   .navbar {
-    background: var(--purple);
+    background: var(--peach);
   }
   
   .navbar-brand,
   .nav-link {
-    color: #d6d6d6 !important;
+    color: #ffffff !important;
     font-weight: 500;
     font-weight: bold;
     text-shadow: 2px 2px 2px rgb(94, 94, 94);
@@ -71,13 +73,13 @@
   }
   
   .dropdown-menu {
-    background-color:  var(--purple);
+    background-color:  var(--peach-dark);
   }
   /*────────────────────────────────────────────────────────────────────────────
     Hero / Jumbotron
   ────────────────────────────────────────────────────────────────────────────*/
   .hero {
-    background: var(--purple-dark);
+    background: var(--peach);
     color: #202020;
     text-align: center;
     padding: 3rem 1rem;
@@ -111,7 +113,7 @@
   }
   
   .card-header {
-    background: var(--purple);
+    background: var(--peach);
     color: #fff;
     font-weight: 600;
     border-bottom: none;
@@ -138,26 +140,26 @@
   
   /* range sliders */
   .form-range::-webkit-slider-thumb {
-    background: var(--purple);
+    background: var(--peach);
   }
   
   .form-range::-moz-range-thumb {
-    background: var(--purple);
+    background: var(--peach);
   }
   
   /*────────────────────────────────────────────────────────────────────────────
     Boutons personnalisés
   ────────────────────────────────────────────────────────────────────────────*/
   .btn-purple {
-    background: var(--purple);
-    border-color: var(--purple);
+    background: var(--peach);
+    border-color: var(--peach);
     color: #fff;
   }
   
   .btn-purple:hover,
   .btn-purple:focus {
-    background: var(--purple-dark);
-    border-color: var(--purple-dark);
+    background: var(--peach-dark);
+    border-color: var(--peach-dark);
     color: #fff;
   }
   

@@ -17,4 +17,9 @@ export function castClassic() {
   export const castArrow = () => {
     return '⚡ Sort Flèche lancé : “Zap-Zoom!”';
   };
+
+  //4. Sort 🪄 Potter
+  export const castPotter = () => {
+    return '🪄 Sort Potter lancé :  “Avada Kedavra !”';
+  };
   
